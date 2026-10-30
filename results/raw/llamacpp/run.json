@@ -1,0 +1,7 @@
+{
+ "engine": "llama.cpp b10666",
+ "weights": "UD-Q4_K_XL",
+ "draft": false,
+ "command": "llama-server -m $GGUF_DIR/Qwen3.8-Flash-Next-UD-Q4_K_XL-00001-of-00004.gguf --host 127.0.0.1 --port 8090 --alias qwen -c 65536 --kv-unified --parallel 16 -ngl 999 -ot per_layer_token_embd=CPU -ub 2048 --jinja --load-mode none --tensor-read-lazy off",
+ "env": {}
+}

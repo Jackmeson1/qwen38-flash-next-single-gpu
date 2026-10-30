@@ -1,0 +1,9 @@
+{
+ "engine": "Strata 0.2.7.1",
+ "weights": "UD-Q4_K_XL",
+ "draft": true,
+ "slots": 1,
+ "machine": "A",
+ "env": {},
+ "command": "python -m serve.server --engine strata --config configs/strata/udq4nokvmmq.json --host 127.0.0.1 --port 18080 --parallel 1 --no-api-key --offline --no-fit-max-tokens"
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="400" viewBox="0 0 760 400" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" role="img" aria-label="One user: Strata with its draft layer decodes fastest; llama.cpp slows as prompts grow">
+<title>One user: Strata with its draft layer decodes fastest; llama.cpp slows as prompts grow</title>
+<text x="0.0" y="20.0" font-size="16" fill="#0b0b0b" text-anchor="start" font-weight="600">One user: Strata with its draft layer decodes fastest; llama.cpp slows as prompts grow</text>
+<text x="0.0" y="41.0" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Decode speed per user in tokens/s by prompt length; 512-token answers, greedy, thinking off</text>
+<line x1="46.0" y1="346.0" x2="500.0" y2="346.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="36.0" y="350.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">0</text>
+<line x1="46.0" y1="278.5" x2="500.0" y2="278.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="36.0" y="282.5" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">50</text>
+<line x1="46.0" y1="211.0" x2="500.0" y2="211.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="36.0" y="215.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">100</text>
+<line x1="46.0" y1="143.5" x2="500.0" y2="143.5" stroke="#e1e0d9" stroke-width="1"/>
+<text x="36.0" y="147.5" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">150</text>
+<line x1="46.0" y1="76.0" x2="500.0" y2="76.0" stroke="#e1e0d9" stroke-width="1"/>
+<text x="36.0" y="80.0" font-size="12" fill="#52514e" text-anchor="end" font-weight="400">200</text>
+<text x="46.0" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">1K prompt</text>
+<text x="273.0" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">8K prompt</text>
+<text x="500.0" y="370.0" font-size="12" fill="#52514e" text-anchor="middle" font-weight="400">32K prompt</text>
+<polyline points="46.0,294.8 273.0,295.1 500.0,295.2" fill="none" stroke="#8f8d86" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="46.0" cy="294.8" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="295.1" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="295.2" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="299.2" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">SGLang: 38</text>
+<polyline points="46.0,219.1 273.0,236.8 500.0,266.8" fill="none" stroke="#8f8d86" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="46.0" cy="219.1" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="236.8" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="266.8" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="270.8" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">llama.cpp: 59</text>
+<polyline points="46.0,214.4 273.0,215.6 500.0,215.7" fill="none" stroke="#8f8d86" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="46.0" cy="214.4" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="215.6" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="215.7" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="219.7" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">vLLM, draft off: 96</text>
+<polyline points="46.0,157.7 273.0,165.6 500.0,162.7" fill="none" stroke="#8f8d86" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="46.0" cy="157.7" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="165.6" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="162.7" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="166.7" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">Strata, draft off: 136</text>
+<polyline points="46.0,140.8 273.0,149.8 500.0,138.1" fill="none" stroke="#8f8d86" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="46.0" cy="140.8" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="149.8" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="138.1" r="4" fill="#8f8d86" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="142.1" font-size="13" fill="#52514e" text-anchor="start" font-weight="400">vLLM, draft on: 154</text>
+<polyline points="46.0,114.2 273.0,130.0 500.0,117.6" fill="none" stroke="#2a78d6" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="46.0" cy="114.2" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="273.0" cy="130.0" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<circle cx="500.0" cy="117.6" r="5" fill="#2a78d6" stroke="#ffffff" stroke-width="2"/>
+<text x="514.0" y="121.6" font-size="13" fill="#0b0b0b" text-anchor="start" font-weight="600">Strata, draft on: 169</text>
+</svg>

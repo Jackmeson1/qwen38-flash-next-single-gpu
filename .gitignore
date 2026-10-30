@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+models/
+prompts/
+qdata/
+gutenberg/
+venv-*/
+Strata/
+llama.cpp/
+configs/strata/

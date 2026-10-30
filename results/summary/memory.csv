@@ -1,0 +1,15 @@
+config,draft,variant,machine,run,gpu_peak_mib,gpu_peak_gib,host_peak_mib,host_peak_gib,ready_s
+vllm,off,,A,vllm-draft-off,91481,89.3,74507,72.8,600
+vllm,off,,A,vllm-draft-off-quality,90621,88.5,73790,72.1,530
+vllm,off,max-num-seqs 256,A,vllm-draft-off-saturation-64-128,91287,89.1,75037,73.3,900
+vllm,off,max-num-seqs 256,A,vllm-draft-off-saturation-256,91289,89.1,85501,83.5,625
+vllm,on,,A,vllm-draft-on,94527,92.3,74791,73.0,660
+sglang,off,,A,sglang-draft-off,94649,92.4,85542,83.5,735
+sglang,off,,A,sglang-draft-off-users-4-32,94649,92.4,85542,83.5,710
+strata-1slot,on,,B,strata-1slot-draft-on,81711,79.8,81041,79.1,650
+strata-1slot,on,,A,strata-1slot-draft-on-machine-a,81711,79.8,81106,79.2,770
+strata-1slot,off,,B,strata-1slot-draft-off,80531,78.6,81038,79.1,625
+strata-1slot,on,checkpoints on,B,strata-1slot-draft-on-checkpoints-on,81729,79.8,84558,82.6,570
+strata-1slot,on,STRATA_MMQ_KQ=1,A,strata-1slot-draft-on-mmq-kq,83959,82.0,85515,83.5,325
+strata-4slots,on,,A,strata-4slots,83959,82.0,85501,83.5,695
+llamacpp,off,,A,llamacpp,85227,83.2,44143,43.1,350

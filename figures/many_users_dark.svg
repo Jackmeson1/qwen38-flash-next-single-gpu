@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="440" viewBox="0 0 760 440" font-family="system-ui, -apple-system, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" role="img" aria-label="Many users: vLLM scales to about 1,400 tokens/s; the others level off below 320">
+<title>Many users: vLLM scales to about 1,400 tokens/s; the others level off below 320</title>
+<text x="0.0" y="20.0" font-size="16" fill="#f0efec" text-anchor="start" font-weight="600">Many users: vLLM scales to about 1,400 tokens/s; the others level off below 320</text>
+<text x="0.0" y="41.0" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">Total output tokens/s by concurrent users; each user sends a 1K prompt and gets a 512-token answer</text>
+<line x1="56.0" y1="376.0" x2="560.0" y2="376.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="46.0" y="380.0" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">0</text>
+<line x1="56.0" y1="276.0" x2="560.0" y2="276.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="46.0" y="280.0" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">500</text>
+<line x1="56.0" y1="176.0" x2="560.0" y2="176.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="46.0" y="180.0" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">1,000</text>
+<line x1="56.0" y1="76.0" x2="560.0" y2="76.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="46.0" y="80.0" font-size="12" fill="#c3c2b7" text-anchor="end" font-weight="400">1,500</text>
+<text x="56.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">1</text>
+<text x="119.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">2</text>
+<text x="182.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">4</text>
+<text x="245.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">8</text>
+<text x="308.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">16</text>
+<text x="371.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">32</text>
+<text x="434.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">64</text>
+<text x="497.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">128</text>
+<text x="560.0" y="398.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">256</text>
+<text x="308.0" y="420.0" font-size="12" fill="#c3c2b7" text-anchor="middle" font-weight="400">concurrent users (each step doubles)</text>
+<line x1="434.0" y1="94.4" x2="560.0" y2="94.4" stroke="#4a4a46" stroke-width="1" stroke-dasharray="4 4"/>
+<text x="568.0" y="112.4" font-size="12" fill="#c3c2b7" text-anchor="start" font-weight="400">plateau 1,408</text>
+<polyline points="56.0,368.3 119.0,361.0 182.0,351.3 245.0,342.4 308.0,330.0 371.0,313.9" fill="none" stroke="#6f6d68" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<circle cx="56.0" cy="368.3" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="119.0" cy="361.0" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="182.0" cy="351.3" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="245.0" cy="342.4" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="308.0" cy="330.0" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="371.0" cy="313.9" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<line x1="377.0" y1="313.9" x2="570.0" y2="292.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="574.0" y="296.0" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">SGLang: 310 at 32</text>
+<polyline points="56.0,358.4 119.0,350.8 182.0,342.0 245.0,334.4 308.0,330.8" fill="none" stroke="#6f6d68" stroke-width="2" stroke-linejoin="round" stroke-dasharray="2 3"/>
+<circle cx="56.0" cy="358.4" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="119.0" cy="350.8" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="182.0" cy="342.0" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="245.0" cy="334.4" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="308.0" cy="330.8" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<line x1="314.0" y1="330.8" x2="570.0" y2="314.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="574.0" y="318.0" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">llama.cpp: 226 at 16</text>
+<polyline points="56.0,345.9 119.0,347.8 182.0,339.7 245.0,340.2" fill="none" stroke="#6f6d68" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="56.0" cy="345.9" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="119.0" cy="347.8" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="182.0" cy="339.7" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<circle cx="245.0" cy="340.2" r="4" fill="#6f6d68" stroke="#0d1117" stroke-width="2"/>
+<line x1="251.0" y1="340.2" x2="570.0" y2="336.0" stroke="#2c2c2a" stroke-width="1"/>
+<text x="574.0" y="340.0" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">Strata, 4 slots: 179 at 8</text>
+<polyline points="56.0,346.4 119.0,325.6 182.0,295.2 245.0,252.7 308.0,227.0" fill="none" stroke="#28507f" stroke-width="2" stroke-linejoin="round"/>
+<circle cx="56.0" cy="346.4" r="4" fill="#28507f" stroke="#0d1117" stroke-width="2"/>
+<circle cx="119.0" cy="325.6" r="4" fill="#28507f" stroke="#0d1117" stroke-width="2"/>
+<circle cx="182.0" cy="295.2" r="4" fill="#28507f" stroke="#0d1117" stroke-width="2"/>
+<circle cx="245.0" cy="252.7" r="4" fill="#28507f" stroke="#0d1117" stroke-width="2"/>
+<circle cx="308.0" cy="227.0" r="4" fill="#28507f" stroke="#0d1117" stroke-width="2"/>
+<text x="318.0" y="251.0" font-size="13" fill="#c3c2b7" text-anchor="start" font-weight="400">vLLM, draft on: 745 at 16</text>
+<polyline points="56.0,356.8 119.0,342.8 182.0,319.1 245.0,284.7 308.0,232.6 371.0,169.8 434.0,94.2 497.0,98.9 560.0,90.1" fill="none" stroke="#3987e5" stroke-width="3" stroke-linejoin="round"/>
+<circle cx="56.0" cy="356.8" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="119.0" cy="342.8" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="182.0" cy="319.1" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="245.0" cy="284.7" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="308.0" cy="232.6" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="371.0" cy="169.8" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="434.0" cy="94.2" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="497.0" cy="98.9" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<circle cx="560.0" cy="90.1" r="4" fill="#3987e5" stroke="#0d1117" stroke-width="2"/>
+<text x="560.0" y="76.1" font-size="13" fill="#f0efec" text-anchor="end" font-weight="600">vLLM, draft off: 1,430 at 256</text>
+</svg>

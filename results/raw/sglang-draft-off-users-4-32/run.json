@@ -1,0 +1,9 @@
+{
+ "engine": "SGLang 0.5.22",
+ "weights": "AutoRound W4A16, Triton MoE kernel",
+ "draft": false,
+ "command": "python -m sglang.launch_server --model-path $MODEL_DIR_SGLANG --served-model-name qwen --port 8000 --context-length 65536 --mem-fraction-static 0.93 --reasoning-parser qwen3 --ple-offload-embedding --disable-prefill-cuda-graph --disable-radix-cache",
+ "env": {
+  "PYTORCH_CUDA_ALLOC_CONF": "expandable_segments:True"
+ }
+}

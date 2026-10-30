@@ -1,0 +1,9 @@
+{
+ "engine": "vLLM 0.32.0",
+ "weights": "AutoRound W4A16",
+ "draft": false,
+ "command": "vllm serve $MODEL_DIR --served-model-name qwen --port 8000 --max-model-len 65536 --gpu-memory-utilization 0.92 --language-model-only --kv-cache-dtype auto --reasoning-parser qwen3 --engram-config {\"cpu_offload\": true} --max-num-seqs 64 --no-enable-prefix-caching",
+ "env": {
+  "VLLM_ENGINE_READY_TIMEOUT_S": "3600"
+ }
+}

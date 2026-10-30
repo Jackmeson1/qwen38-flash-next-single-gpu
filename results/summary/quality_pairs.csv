@@ -1,0 +1,7 @@
+task,first,second,questions,both_right,only_first_right,only_second_right,both_wrong,p_exact
+gsm8k,vllm draft off,vllm draft on,250,244,0,1,5,1.0
+mmlu_pro,vllm draft off,vllm draft on,300,247,9,4,40,0.2668
+gsm8k,vllm draft off,strata-1slot draft on (checkpoints on),250,243,1,0,6,1.0
+mmlu_pro,vllm draft off,strata-1slot draft on (checkpoints on),300,245,11,3,41,0.0574
+gsm8k,vllm draft on,strata-1slot draft on (checkpoints on),250,243,2,0,5,0.5
+mmlu_pro,vllm draft on,strata-1slot draft on (checkpoints on),300,243,8,5,44,0.5811

@@ -1,0 +1,10 @@
+{
+ "engine": "Strata 0.2.7.1",
+ "weights": "UD-Q4_K_XL",
+ "draft": true,
+ "slots": 4,
+ "machine": "A",
+ "note": "setup's default config, KV streaming on (--kv-resident 32768)",
+ "command": "python -m serve.server --engine strata --config configs/strata/udq4.json --host 127.0.0.1 --port 18080 --parallel 4 --no-api-key --offline --no-fit-max-tokens",
+ "env": {}
+}
